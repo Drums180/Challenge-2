@@ -4,6 +4,8 @@
     --light-brown: #f6f5f3;
     --white: white;
     --light-color: #c88b3d;
+    --cards: #eaeaea;
+    --bordercards: 20px
 
 } 
 
@@ -66,8 +68,13 @@ header a:visited {
 }
 
 /* ABOUT ME */
-p {
+.about-me p {
+    display: flex;
     font-size: 2rem;
+    margin-top: 0.5%;
+    background-color:var(--cards);
+    border-radius: var(--bordercards);
+    margin-right: 30%;
 }
 
 /* MY WORK */
