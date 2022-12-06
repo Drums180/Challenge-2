@@ -25,10 +25,10 @@ header h2 {
     font-size: 3rem;
 }
 
-nav ul li {
+nav ul {
     font-size: 2rem;
-    display: inline;
-    margin: 0% 2% 0% 0.2%;
+    display: flex;
+    gap: 3rem;
 }
 
 header a:link {
@@ -36,7 +36,7 @@ header a:link {
 }
 
 header a:visited {
-    color: var(--light-color);
+    color: var(--white);
 }
 
 /* PERFIL */
@@ -66,9 +66,38 @@ header a:visited {
 }
 
 /* ABOUT ME */
+p {
+    font-size: 2rem;
+}
 
+/* MY WORK */
 
+/* CONTACT ME */
+.contact-me a{
+    display: block;
+}
+.contact-me ul{
+    font-size: 2rem;
+    font-weight: 700;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-evenly;
+    background-color: var(--dark-brown);
+    padding: 0.2% 50px 0.2% 50px;
+    margin: 0% 2% 0% 0.2%;
+}
 
+.contact-me li {
+    color: var(--white);
+}
+
+.contact-me a:link {
+    color: var(--white);
+}
+
+.contact-me a:visited {
+    color: var(--white);
+}
 /* FOOTER */
 footer {
     padding: 30px;
@@ -79,4 +108,9 @@ footer {
 
 footer h4 {
     font-size: 20px;
+}
+
+/* HOVER
+.contact-me a:visited {
+    color: var(--light-color);
 }
