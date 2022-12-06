@@ -79,6 +79,19 @@ header a:visited {
 
 /* MY WORK */
 
+.large-photo {
+    width: 90%;
+}
+
+.small-card {
+    background-image: image;
+    display: block;
+    border: solid 5px;
+}
+.small-photo {
+    width: 45%;
+}
+
 /* CONTACT ME */
 .contact-me a{
     display: block;
