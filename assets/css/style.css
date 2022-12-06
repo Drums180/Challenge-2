@@ -1,11 +1,13 @@
 /* HEADER */
 :root {
     --dark-brown: #412518;
-    --light-brown: #f6f5f3;
+    --light-brown: #ceb696;
     --white: white;
+    --black: black;
     --light-color: #c88b3d;
     --cards: #eaeaea;
-    --bordercards: 20px
+    --bordercards: 20px;
+    --bordertitles: 30px;
 
 } 
 
@@ -62,7 +64,7 @@ header a:visited {
 
 .about-me h2, .my-work h2, .contact-me h2{
     font-size: 3.5rem;
-    color: var(--dark-brown);
+    color: var(--light-brown);
     text-decoration: underline;
     margin-top: 1%;
 }
@@ -70,26 +72,65 @@ header a:visited {
 /* ABOUT ME */
 .about-me p {
     display: flex;
+    flex-shrink: 1;
     font-size: 2rem;
-    margin-top: 0.5%;
+    margin-top: 1%;
+    padding: 10px;
     background-color:var(--cards);
     border-radius: var(--bordercards);
     margin-right: 30%;
+
 }
 
 /* MY WORK */
 
+.my-work {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.large-card {
+    margin-top: 5rem;
+}
 .large-photo {
-    width: 90%;
+    width: 100%;
+    margin-right: 1%;
 }
 
 .small-card {
-    background-image: image;
-    display: block;
-    border: solid 5px;
+    width: 50%;
 }
 .small-photo {
-    width: 45%;
+    width: 100%;
+    height: 80%;
+    opacity: 100%;
+}
+
+.title {
+    position: relative;
+    top: 3rem;
+    display: flex;
+    color: var(--white);
+    padding: 2%;
+    background-color: var(--dark-brown);
+    border-radius: var(--bordertitles);
+    font-size: 2rem;
+    justify-content: center;
+    margin: 0% 5% 0 5%;
+    border: solid 2px#c88b3d;
+    border-style: inset;
+}
+
+.my-work p{
+    font-size: 1.5rem;
+    display: flex;
+    position: relative;
+    top: 3.5rem;
+    color: white;
+    justify-content: center;
+    background-color: var(--black);
+    opacity: 70%;
+    margin: 0% 40% 0 40%;
 }
 
 /* CONTACT ME */
@@ -114,7 +155,7 @@ header a:visited {
 .contact-me a:link {
     color: var(--white);
 }
-
+border
 .contact-me a:visited {
     color: var(--white);
 }
@@ -124,13 +165,17 @@ footer {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    color: var(--white);
 }
 
 footer h4 {
     font-size: 20px;
 }
 
+/*@media
+
 /* HOVER
 .contact-me a:visited {
     color: var(--light-color);
 }
+
