@@ -1,0 +1,82 @@
+/* HEADER */
+:root {
+    --dark-brown: #412518;
+    --light-brown: #f6f5f3;
+    --white: white;
+    --light-color: #c88b3d;
+
+} 
+
+header {
+    background-color: var(--dark-brown);
+    color: var(--white);
+    padding: 1% 0.2% 2% 1%;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 5rem;
+}
+
+header h2 {
+    margin-left: 1%;
+    display: inline-block;
+    color: var(--light-color);
+    font-size: 3rem;
+}
+
+nav ul li {
+    font-size: 2rem;
+    display: inline;
+    margin: 0% 2% 0% 0.2%;
+}
+
+header a:link {
+    color: var(--white);
+}
+
+header a:visited {
+    color: var(--light-color);
+}
+
+/* PERFIL */
+.perfil {
+    width: 20%;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    border-radius: 50%;
+}
+
+/* CONTENT */
+.content {
+    width: 100%;
+    display: inline-block;
+    margin-left: 1%;
+    margin-top: 1% ;
+}
+
+/* TITLES */
+
+.about-me h2, .my-work h2, .contact-me h2{
+    font-size: 3.5rem;
+    color: var(--dark-brown);
+    text-decoration: underline;
+    margin-top: 1%;
+}
+
+/* ABOUT ME */
+
+
+
+/* FOOTER */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h4 {
+    font-size: 20px;
+}

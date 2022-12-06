@@ -1,0 +1,32 @@
+/* UNIVERSAL SETTINGS */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+    /*Added height in order to pin header*/
+    height: 100%;
+    font-size: 10px;
+}
+
+body {
+    background-color: #f6f5f3;
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+nav li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a:link {
+    text-decoration: none;
+}
