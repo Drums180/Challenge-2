@@ -23,13 +23,12 @@ As mentioned before, all links inside the webpage are completely functional incl
 
 <img width="760" alt="Captura de pantalla 2022-11-28 a la(s) 17 15 50" src="https://user-images.githubusercontent.com/118247139/204400658-f5ed04d1-f280-4997-bc73-436d0b1151a8.png">
 
-## Criteria 4: Sequential Order
+## Criteria 4: Larger Image for First Project
 
-In order to have easier accessibility when editing the website, a sequential structure must be made where the CSS file is directly related to the HTML file. For this case most of the variables in the CSS file are out of order and therefore it is necessary to make corrections as follows.
+As the required instructions ask, the first image that represents the first project has a larger size than the others. This is achieved reducing the size of the other images to 50% of the value of the page. Using the `display: flex`and dividing classes between the large card and the smaller ones, it is posible to wrap the projects in 2 rows to be later modified for a column when the display changes its size.
 
-<img width="944" alt="Captura de pantalla 2022-11-28 a la(s) 17 14 07" src="https://user-images.githubusercontent.com/118247139/204400460-864b2014-fcf9-468f-b128-1bfcdd9a82f9.png">
-<img width="987" alt="Captura de pantalla 2022-11-28 a la(s) 17 14 20" src="https://user-images.githubusercontent.com/118247139/204400474-2c16d665-20e5-4c61-94a9-3f74f22d58ff.png">
-<img width="912" alt="Captura de pantalla 2022-11-28 a la(s) 17 14 33" src="https://user-images.githubusercontent.com/118247139/204400496-ce23880d-81ce-4945-9a2b-2ac1ef780b53.png">
+<img width="1453" alt="Captura de pantalla 2022-12-08 a la(s) 1 48 31" src="https://user-images.githubusercontent.com/118247139/206389195-2224dc4c-a423-453d-863b-79b1ca741ba9.png">
+
 
 ## Add Ups
 
@@ -55,15 +54,31 @@ Another addition to the code in the CSS was the use of the `:root` pseudo class,
 
 ## Details and Future Changes 
 
-Within the file there are different comments both in the HTML file and in the CSS of possible code configurations that can allow the page to have the best performance. Among these comments is the possibility of anchoring the header so that the user can access the menu whenever they need it, changing the title to have a more suitable one that matches the website, joining multiple elements in CSS to save code, etc.
+For some reason, when trying to collaborate the effects of `@media` in the cell phone display, there are still 2 rows of information instead of 1 column. At first glance and after reading documentation, this seems to be a common effect and result ot the constant increase in screen size of cell phone devices. One solution that most programmers seem to be appelling to is to a type of `@media` attribute that changes the presentation only for devices that cannot hover (meaning that are not computers since they have no mouse). This solution is promising and should be applied in the future in order to eliminate this error.
+
+![IMG_303A8D950ACB-1](https://user-images.githubusercontent.com/118247139/206390613-98ff9292-349c-4aec-a47f-bde8ad4bb02e.jpeg)
 
 Example (extraction of code):
 ```
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2   {
-    /* joined the 3 categories in order to reduce space in code as all share the same characteristics*/
-    margin-bottom: 20px;
-    font-size: 36px;
+@media (max-width: 880px){
+    .perfil{
+        position: absolute;
+        top: 15%;
+    }
+    .contact-me {
+        margin-top: 10%;
+    }
+    .about-me p {
+        font-size: 1.7rem;
+    }
+    .small-card {
+        width: 100%;
+    }
+    .my-work p{
+        font-size: 20px;
+        width: 24rem;
+    }
 }
 ```
 
-> Visualize the final page [here](https://drums180.github.io/Challenge-1/#social-media-marketing)
+> Visualize the final page [here](https://drums180.github.io/Challenge-2/#contact-me)
