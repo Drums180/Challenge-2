@@ -211,6 +211,9 @@ footer h4 {
     .about-me p {
         font-size: 1.7rem;
     }
+    .small-card {
+        width: 100%;
+    }
 }
 
 @media (max-width: 664px){
