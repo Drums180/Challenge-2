@@ -274,7 +274,7 @@ nav a:hover {
     color: var(--main-color);
 }
 
-p:hover {
+.work-p:hover {
     color: var(--main-color);
     background-color: var(--dark-color);
 }
