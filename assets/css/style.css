@@ -200,7 +200,7 @@ footer h4 {
 }
 
 /* MEDIA MODIFICATIONS */
-@media (max-width: 1100px){
+@media (max-width: 1200px){
     .perfil{
         position: absolute;
         top: 15%;
