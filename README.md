@@ -28,7 +28,7 @@ As mentioned before, all links inside the webpage are completely functional incl
 As the required instructions ask, the first image that represents the first project has a larger size than the others. This is achieved reducing the size of the other images to 50% of the value of the page. Using the `display: flex`and dividing classes between the large card and the smaller ones, it is posible to wrap the projects in 2 rows to be later modified for a column when the display changes its size.
 
 <img width="1453" alt="Captura de pantalla 2022-12-08 a la(s) 1 48 31" src="https://user-images.githubusercontent.com/118247139/206389195-2224dc4c-a423-453d-863b-79b1ca741ba9.png">
-
+<img width="570" alt="Captura de pantalla 2022-12-08 a la(s) 2 13 11" src="https://user-images.githubusercontent.com/118247139/206394012-272fdff5-d001-4e06-b46d-929b75ef28e9.png">
 
 ## Add Ups
 
@@ -46,10 +46,12 @@ In order not to affect the functionality of the website for users, the effect of
 ```
 > ###### Note: This effect can be changed to a general use in order to not depend or confuse the user with the text (which in fact has also a hover effect on it). Nontheless, it was decided in order to not compromise the overall esthetic of the image title since this object is also compromised when opacity is changed. Future corrections and use of documentation is needed.
 
-Another addition to the code in the CSS was the use of the `:root` pseudo class, with this, it is eassy to change the color of the website with more ease and without risking not changing a crucial color in some point over the website.
+Another addition to the code in the CSS was the use of the `:root` pseudo class, with this, the programmer is capabale of changing the color of the website with more ease and without risking not changing a crucial color in some point over the website.
 
 <img width="397" alt="Captura de pantalla 2022-12-08 a la(s) 1 37 56" src="https://user-images.githubusercontent.com/118247139/206387107-e1a8f7d6-b5b1-4416-8c9b-eb86a4826029.png">
 <img width="1470" alt="Captura de pantalla 2022-12-08 a la(s) 1 41 06" src="https://user-images.githubusercontent.com/118247139/206387824-009ec0d9-db6e-4e2d-9642-e5203651fe8d.png">
+<img width="1470" alt="Captura de pantalla 2022-12-08 a la(s) 2 10 36" src="https://user-images.githubusercontent.com/118247139/206393633-b8502f7e-e228-4407-9ccb-cc55c8768d9d.png">
+
 
 Finally, the addition of a reset.css file allows the browser to eliminate a default configuration and mark the basic standards of desing of the website. For this, the anterior universal charactistics applied in activities during class where used in addition to other specific ones that relate to the application of the website.
 
