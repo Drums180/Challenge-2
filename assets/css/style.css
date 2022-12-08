@@ -33,6 +33,8 @@ nav ul {
     font-size: 2rem;
     display: flex;
     gap: 3rem;
+    font-weight: 700;
+    margin-top: 1%;
 }
 
 header a:link {
@@ -50,6 +52,7 @@ header a:visited {
     top: 2%;
     right: 2%;
     border-radius: 50%;
+    min-width: 150px;
 }
 
 /* CONTENT */
@@ -67,19 +70,24 @@ header a:visited {
     color: var(--light-color);
     text-decoration: underline;
     margin-top: 1%;
+    position: relative;
 }
 
 /* ABOUT ME */
-.about-me p {
+.about-me article {
     display: flex;
     flex-shrink: 1;
+    flex-direction: column;
     font-size: 2rem;
     margin-top: 1%;
     padding: 10px;
-    background-color:var(--cards);
-    border-radius: var(--bordercards);
+    color: var(--white);
     margin-right: 30%;
+    text-align:justify;
+}
 
+.space {
+    margin-top: 4%;
 }
 
 /* MY WORK */
@@ -136,16 +144,17 @@ header a:visited {
     border-style: inset;
 }
 
-.my-work button{
+.work-button {
     font-size: 1.5rem;
     display: flex;
     position: relative;
     top: 85%;
-    color: var(--white);
+    color: var(--dark-color);
     background-color: var(--black);
     width: 20rem;
     justify-content: center;
     border-radius: 20px;
+    background-color: var(--light-color);
 }
 
 /* CONTACT ME */
@@ -190,20 +199,24 @@ footer h4 {
     font-size: 20px;
 }
 
+/* MEDIA MODIFICATIONS */
 @media (max-width: 880px){
     .perfil{
         position: absolute;
-        top: 17%;
+        top: 15%;
     }
     .contact-me {
         margin-top: 10%;
+    }
+    .about-me p {
+        font-size: 1.7rem;
     }
 }
 
 @media (max-width: 664px){
     .perfil{
         position: absolute;
-        top: 23%;
+        top: 18%;
     }
     .contact-me {
         margin-top: 10%;
@@ -214,10 +227,19 @@ footer h4 {
     .small-card {
         width: 100%;
     }
+    img:hover {
+        opacity: 90%;
+    }
     .my-work button{
         display: none;
         position:relative;
         align-self: center;
+    }
+    .about-me p {
+        font-size: 1.5rem;
+    }
+    .contact-me ul{
+        font-size: 1.6rem;
     }
 }
 
@@ -232,8 +254,20 @@ footer h4 {
     }
 }
 
-/* HOVER
-.contact-me a:visited {
+/* HOVER */
+.contact-me a:hover {
     color: var(--main-color);
 }
 
+.contact-me li:hover {
+    color: var(--main-color);
+}
+
+nav a:hover {
+    color: var(--main-color);
+}
+
+button:hover {
+    color: var(--main-color);
+    background-color: var(--dark-color);
+}
