@@ -51,6 +51,9 @@ Another addition to the code in the CSS was the use of the `:root` pseudo class,
 <img width="397" alt="Captura de pantalla 2022-12-08 a la(s) 1 37 56" src="https://user-images.githubusercontent.com/118247139/206387107-e1a8f7d6-b5b1-4416-8c9b-eb86a4826029.png">
 <img width="1470" alt="Captura de pantalla 2022-12-08 a la(s) 1 41 06" src="https://user-images.githubusercontent.com/118247139/206387824-009ec0d9-db6e-4e2d-9642-e5203651fe8d.png">
 
+Finally, the addition of a reset.css file allows the browser to eliminate a default configuration and mark the basic standards of desing of the website. For this, the anterior universal charactistics applied in activities during class where used in addition to other specific ones that relate to the application of the website.
+
+<img width="877" alt="Captura de pantalla 2022-12-08 a la(s) 2 02 22" src="https://user-images.githubusercontent.com/118247139/206391986-5f9e2ea7-f094-4cbd-9408-72a772568643.png">
 
 ## Details and Future Changes 
 
