@@ -1,10 +1,10 @@
 /* HEADER */
 :root {
-    --dark-brown: #412518;
-    --light-brown: #ceb696;
+    --dark-color: #412518;
+    --light-color: #ceb696;
     --white: white;
     --black: black;
-    --light-color: #c88b3d;
+    --main-color: #c88b3d;
     --cards: #eaeaea;
     --bordercards: 20px;
     --bordertitles: 30px;
@@ -12,7 +12,7 @@
 } 
 
 header {
-    background-color: var(--dark-brown);
+    background-color: var(--dark-color);
     color: var(--white);
     padding: 1% 0.2% 2% 1%;
 }
@@ -25,7 +25,7 @@ header h1 {
 header h2 {
     margin-left: 1%;
     display: inline-block;
-    color: var(--light-color);
+    color: var(--main-color);
     font-size: 3rem;
 }
 
@@ -64,7 +64,7 @@ header a:visited {
 
 .about-me h2, .my-work h2, .contact-me h2{
     font-size: 3.5rem;
-    color: var(--light-brown);
+    color: var(--light-color);
     text-decoration: underline;
     margin-top: 1%;
 }
@@ -112,7 +112,22 @@ header a:visited {
     display: flex;
     color: var(--white);
     padding: 2%;
-    background-color: var(--dark-brown);
+    background-color: var(--dark-color);
+    border-radius: var(--bordertitles);
+    font-size: 2rem;
+    justify-content: center;
+    margin: 0% 5% 0 5%;
+    border: solid 2px var(--main-color);
+    border-style: inset;
+}
+
+.title-large {
+    position: relative;
+    top: 3rem;
+    display: flex;
+    color: var(--white);
+    padding: 1% 2% 1% 2%;
+    background-color: var(--dark-color);
     border-radius: var(--bordertitles);
     font-size: 2rem;
     justify-content: center;
@@ -121,16 +136,15 @@ header a:visited {
     border-style: inset;
 }
 
-.my-work p{
+.my-work button{
     font-size: 1.5rem;
     display: flex;
     position: relative;
     top: 3.5rem;
-    color: white;
-    justify-content: center;
+    color: var(--white);
     background-color: var(--black);
-    opacity: 70%;
-    margin: 0% 40% 0 40%;
+    margin: 
+    border-radius: 20px;
 }
 
 /* CONTACT ME */
@@ -143,7 +157,7 @@ header a:visited {
     display: flex;
     gap: 2rem;
     justify-content: space-evenly;
-    background-color: var(--dark-brown);
+    background-color: var(--dark-color);
     padding: 0.2% 50px 0.2% 50px;
     margin: 0% 2% 0% 0.2%;
 }
@@ -155,7 +169,7 @@ header a:visited {
 .contact-me a:link {
     color: var(--white);
 }
-border
+
 .contact-me a:visited {
     color: var(--white);
 }
@@ -172,10 +186,30 @@ footer h4 {
     font-size: 20px;
 }
 
-/*@media
+@media (max-width: 880px){
+    .perfil{
+        position: absolute;
+        top: 17%;
+    }
+}
+
+@media (max-width: 664px){
+    .perfil{
+        position: absolute;
+        top: 23%;
+    }
+}
+
+@media (max-width: 497px){
+    .perfil{
+        position: absolute;
+        top: 30%;
+        flex-shrink: 0;
+    }
+}
 
 /* HOVER
 .contact-me a:visited {
-    color: var(--light-color);
+    color: var(--main-color);
 }
 
