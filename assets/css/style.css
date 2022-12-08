@@ -149,6 +149,9 @@ header a:visited {
 }
 
 /* CONTACT ME */
+.contact-me {
+    margin-top: 5%;
+}
 .contact-me a{
     display: block;
 }
@@ -192,12 +195,29 @@ footer h4 {
         position: absolute;
         top: 17%;
     }
+    .contact-me {
+        margin-top: 10%;
+    }
 }
 
 @media (max-width: 664px){
     .perfil{
         position: absolute;
         top: 23%;
+    }
+    .contact-me {
+        margin-top: 10%;
+    }
+    .my-work {
+        flex-direction: column;
+    }
+    .small-card {
+        width: 100%;
+    }
+    .my-work button{
+        display: none;
+        position:relative;
+        align-self: center;
     }
 }
 
@@ -206,6 +226,9 @@ footer h4 {
         position: absolute;
         top: 30%;
         flex-shrink: 0;
+    }
+    .contact-me {
+        margin-top: 10%;
     }
 }
 
