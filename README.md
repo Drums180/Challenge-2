@@ -9,7 +9,7 @@ The structure of the css file matches the html in order to have a proper logical
 <img width="811" alt="Captura de pantalla 2022-12-08 a la(s) 1 22 59" src="https://user-images.githubusercontent.com/118247139/206384304-e377c9fa-b854-4916-8a74-a69bbadec377.png">
 <img width="618" alt="Captura de pantalla 2022-12-08 a la(s) 1 27 05" src="https://user-images.githubusercontent.com/118247139/206385122-1fe43578-6cab-447e-82c9-78de9f6f7322.png">
 
-> ###### Note: The css uses pseudo class `:hover` wasn´t required nontheless was used in all the links, navigation included. 
+> ###### Note: The css uses pseudo class `:hover` which wasn´t required nontheless was used in all the links, navigation included. 
 
 ## Criteria 2: Functional links
 
