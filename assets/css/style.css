@@ -214,6 +214,10 @@ footer h4 {
     .small-card {
         width: 100%;
     }
+    .my-work p{
+        font-size: 20px;
+        width: 24rem;
+    }
 }
 
 @media (max-width: 664px){
