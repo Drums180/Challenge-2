@@ -21,7 +21,7 @@ All the links presented in the webpage are completely functional, including cont
 
 As mentioned before, all links inside the webpage are completely functional including those referencing the same page. This is made using proper `id` attributes that links one tag which normally refers to a section that will be connected by a link or button.
 
-<img width="760" alt="Captura de pantalla 2022-11-28 a la(s) 17 15 50" src="https://user-images.githubusercontent.com/118247139/204400658-f5ed04d1-f280-4997-bc73-436d0b1151a8.png">
+<img width="480" alt="Captura de pantalla 2022-12-08 a la(s) 11 09 01" src="https://user-images.githubusercontent.com/118247139/206517955-02da5c7d-9558-41a7-8b4c-a5fcfba2ce6d.png">
 
 ## Criteria 4: Larger Image for First Project
 
